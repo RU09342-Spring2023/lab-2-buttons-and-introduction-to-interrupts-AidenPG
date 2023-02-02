@@ -77,3 +77,11 @@ Then load up Energy Trace and perform the similar capture of Power with the LED 
 
 # Screenshots and Answers to Questions
 **Replace this section with your screenshots of Energy Trace and provide some reasoning as to Questions 1 and 2 in the Power consumption of the Interrupts Section.**
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Polling Graph - https://drive.google.com/file/d/1D0iQCAi53a2iu5wTkVLVMBZkMBiiTHNi/view?usp=sharing
+Interrupt Graph - https://drive.google.com/file/d/1074m_UhWF_TnhnFWSWG_yMZdh5Pn5_lF/view?usp=sharing
+
+1. That it's always checking for an input, which requires consistant power.
+2. Because the pull up resistor still draws power when the button is pressed, even if there is no LED plugged in.
+
